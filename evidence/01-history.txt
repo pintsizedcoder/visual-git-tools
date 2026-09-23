@@ -1,0 +1,12 @@
+GitHub Link: https://github.com/pintsizedcoder/visual-git-tools
+
+Branch names: main and visual-tools
+
+Feature commit messages: 
+
+1. Create checkout.py
+2. Update checkout.py code
+
+The initial commit is shared with main because visual-tools was created from main after the initial commit. The two checkout.py commits are unique to visual-tools because they were created after switching to that branch. At the time of the History screenshot, HEAD was attached to visual-tools and pointed to the newest feature commit. The visual-tools branch label also pointed to that newest feature commit, while main remained at the initial commit.
+
+

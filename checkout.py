@@ -1,6 +1,6 @@
 def calculate_total(price, quantity):
     total = price * quantity
-    return total + 5
+    return round(total, 2)
 
 
 print(calculate_total(11, 3))

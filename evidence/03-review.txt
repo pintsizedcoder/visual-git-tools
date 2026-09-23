@@ -1,0 +1,20 @@
+Commit 1:
+Improve checkout total display
+
+Files included:
+checkout.py
+
+Summary:
+This commit improved the checkout output by adding a descriptive label, currency symbol, and two-decimal formatting.
+
+Commit 2:
+Document purpose of repo
+
+Files included:
+README.md
+
+Summary:
+This commit added a short description explaining the purpose of the repository.
+
+Reason for separating the changes:
+The checkout.py change affects the program’s output, while the README.md change updates repository documentation. Keeping them in separate focused commits makes each purpose easier to review and explain. It also allows either change to be reverted without undoing the unrelated change.

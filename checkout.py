@@ -3,4 +3,4 @@ def calculate_total(price, quantity):
     return total
 
 
-print(calculate_total(10, 2))
+print(calculate_total(11, 3))

@@ -1,0 +1,13 @@
+Line under investigation:
+return round(total, 2)
+
+Commit SHA: 04c7956e49f9977f462bb6fa5950381e309b9854
+
+Author/date shown by GitHub Desktop:
+pintsizedcoder — 9/22/26
+
+Commit message:
+Correct checkout total calculation
+
+Interpretation:
+This commit changed the return statement from "return total + 5" to "return round(total, 2)." The earlier line added an unexplained $5 to the checkout total, causing the unexpected result. Removing that addition plausibly corrected the behavior, while round() limits the returned total to two decimal places.
